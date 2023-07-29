@@ -5,7 +5,7 @@ from pymongo import MongoClient
 base_url = 'https://pubchem.ncbi.nlm.nih.gov/rest/pug'
 
 # 提供化合物名称或CID
-compound_name = 'aspirin'
+compound_name = 'Acetaminophen'
 
 # 搜索化合物并获取CID
 search_url = f'{base_url}/compound/name/{compound_name}/cids/JSON'
