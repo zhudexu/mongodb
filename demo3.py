@@ -5,7 +5,17 @@ from pymongo import MongoClient
 base_url = 'https://pubchem.ncbi.nlm.nih.gov/rest/pug'
 
 # 提供化合物名称或CID
-compound_name = 'Acetaminophen'
+# 乙醇（Ethanol）
+# 对乙酰氨基酚（Acetaminophen）
+# 氨基葡萄糖（Glucosamine）
+# 维生素C（Vitamin C）
+# 硫酸铜（Copper sulfate）
+# 碳酸钙（Calcium carbonate）
+# 精氨酸（Arginine）
+# 葡萄糖（Glucose）
+# 苯甲酸（Benzoic acid）
+# 乌洛托品（Atropine）
+compound_name = 'Atropine'
 
 # 搜索化合物并获取CID
 search_url = f'{base_url}/compound/name/{compound_name}/cids/JSON'
