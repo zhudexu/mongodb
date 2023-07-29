@@ -19,6 +19,7 @@ if 'IdentifierList' in response_json:
     info_url = f'{base_url}/compound/cid/{cid}/JSON'
     info_response = requests.get(info_url)
     info_json = info_response.json()
+    print(info_response.json())
 
 
     if 'PC_Compounds' in info_json:
